@@ -1,9 +1,7 @@
 function print() {
     let numero = parseInt(prompt("Introducí un número entero para calcular su factorial"));
 
-
     let factorial = 1;
-
 
     if (numero >= 0) {
         for (let i = 1; i <= numero; i++) {
@@ -13,6 +11,4 @@ function print() {
     } else {
         console.log("Introducí un número entero positivo válido");
     }
-
-
 }
